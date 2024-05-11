@@ -1,0 +1,31 @@
+/** @format */
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #5c7cfa;
+  opacity: 0.2;
+}
+
+.content {
+  width: 25rem;
+  font-size: 1.2rem;
+  color: black;
+  background-color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

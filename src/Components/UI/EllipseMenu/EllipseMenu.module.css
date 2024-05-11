@@ -1,0 +1,30 @@
+/** @format */
+
+.container {
+  position: relative;
+}
+
+.dropdown {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 0.6rem;
+  width: 7.3rem;
+  position: absolute;
+  background-color: #fffffe;
+  z-index: 999;
+}
+
+.dropdown > p {
+  position: relative;
+  cursor: pointer;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.dropdown > p {
+  border-bottom: 1px solid #212529;
+  padding-left: 0.6rem;
+  font-weight: 700;
+}

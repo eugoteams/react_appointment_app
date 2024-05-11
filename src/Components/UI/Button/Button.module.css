@@ -1,0 +1,15 @@
+/** @format */
+
+button {
+  color: #4263eb;
+  text-transform: capitalize;
+  background-color: #fffffe;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 12rem;
+}

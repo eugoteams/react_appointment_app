@@ -1,0 +1,47 @@
+/** @format */
+
+.container {
+  width: 15rem;
+  /* margin: 3rem auto; */
+  text-transform: capitalize;
+  position: relative;
+}
+
+.color {
+  color: #4c6ef5;
+}
+
+.selected_date > p:first-child {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  color: #212529;
+}
+
+.selected_date > p:last-child {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+
+.icon {
+  background-color: #edf2ff;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+}
+
+.date_picker_container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.inner_date {
+  padding: 0.5rem;
+  opacity: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+/** @format */
+.container {
+  /* margin: 1rem auto; */
+  width: 100%;
+}
+
+/*Avatar design*/
+.avatar {
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.4;
+  font-size: 1.3rem;
+  border: 0.25rem solid black;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #748ffc;
+  position: relative;
+}
+
+.description {
+  padding: 0.5rem;
+  flex: 1;
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.name {
+  color: #212529;
+  font-weight: 600;
+  width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.md {
+  font-size: 1.2rem;
+}
+
+.sm {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+.profession {
+  color: #495057;
+  font-weight: 500;
+}

@@ -1,0 +1,69 @@
+/** @format */
+
+.container {
+  width: 19rem;
+  /* margin: 2rem auto; */
+  text-transform: capitalize;
+  line-height: 1.5;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon {
+  color: #343a40;
+  cursor: pointer;
+}
+
+.dropdown {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  height: 18rem;
+  overflow: auto;
+  z-index: 999;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transform: translateY(6.5rem);
+  background-color: #fffffe;
+}
+
+/** removing the scrollbar */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.dropdown::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.dropdown {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.item_container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.overlay::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  height: 0.1rem;
+  transform: translateY(0.3rem);
+}

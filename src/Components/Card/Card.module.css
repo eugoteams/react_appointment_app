@@ -1,0 +1,54 @@
+/** @format */
+
+.container {
+  width: 90%;
+  font-size: 1.2rem;
+  margin: 1rem auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.index {
+  font-weight: 600;
+  position: relative;
+}
+
+.index::after {
+  position: absolute;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.3rem;
+  height: 0.3rem;
+  background-color: black;
+  border-radius: 50%;
+  transform: translate(2rem, 1rem);
+}
+
+.patient_info p:first-child {
+  font-weight: 600;
+  color: #212529;
+  font-size: 1.2rem;
+}
+.patient_info p:nth-child(2) {
+  font-size: 1rem;
+}
+
+p {
+  color: #868e96;
+}
+
+.icon {
+  cursor: pointer;
+  color: #212529;
+}
+
+.wrapper_flex {
+  flex: 1;
+}

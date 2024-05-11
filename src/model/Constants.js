@@ -1,0 +1,123 @@
+/** @format */
+
+export const patients = [
+  {
+    id: 1,
+    first_name: "Elmo",
+    last_name: "Newbery",
+    age: "15",
+    phone: "+55 822 718 2151",
+    doctorId: 1,
+  },
+  {
+    id: 2,
+    first_name: "Christophe",
+    last_name: "Cordelle",
+    age: "73",
+    phone: "+62 250 564 2375",
+    doctorId: 1,
+  },
+  {
+    id: 3,
+    first_name: "Cathrin",
+    last_name: "Sneddon",
+    age: "52",
+    phone: "+63 312 528 3631",
+    doctorId: 2,
+  },
+  {
+    id: 4,
+    first_name: "Gertrud",
+    last_name: "St. Queintain",
+    age: "27",
+    phone: "+53 576 360 9624",
+    doctorId: 2,
+  },
+  {
+    id: 5,
+    first_name: "Adler",
+    last_name: "Bantham",
+    age: "10",
+    phone: "+62 967 458 3504",
+    doctorId: 3,
+  },
+  {
+    id: 6,
+    first_name: "Maury",
+    last_name: "Cockerell",
+    age: "83",
+    phone: "+7 822 293 6671",
+    doctorId: 3,
+  },
+  {
+    id: 7,
+    first_name: "Ferd",
+    last_name: "Spellacy",
+    age: "94",
+    phone: "+1 663 249 7056",
+    doctorId: 1,
+  },
+  {
+    id: 8,
+    first_name: "Ellary",
+    last_name: "Bownes",
+    age: "86",
+    phone: "+86 157 407 5923",
+    doctorId: 2,
+  },
+  {
+    id: 9,
+    first_name: "Tad",
+    last_name: "Fancett",
+    age: "23",
+    phone: "+86 651 298 0042",
+    doctorId: 3,
+  },
+  {
+    id: 10,
+    first_name: "Lita",
+    last_name: "Samsworth",
+    age: "27",
+    phone: "+58 768 920 3926",
+    doctorId: 1,
+  },
+];
+
+export const doctorsList = [
+  {
+    id: 1,
+    firstname: "sandeep",
+    lastname: "maturi",
+    profession: "general doctor",
+  },
+  {
+    id: 2,
+    firstname: "kavitha",
+    lastname: "kalvakuntla",
+    profession: "dermatologist",
+  },
+  {
+    id: 3,
+    firstname: "praneeth",
+    lastname: "cameron",
+    profession: "pediatrician",
+  },
+  {
+    id: 4,
+    firstname: "shiva",
+    lastname: "maturi",
+    profession: "general doctor",
+  },
+  {
+    id: 5,
+    firstname: "james",
+    lastname: "kalvakuntla",
+    profession: "dermatologist",
+  },
+  {
+    id: 6,
+    firstname: "preethi",
+    lastname: "cameron",
+    profession: "pediatrician",
+  },
+];
