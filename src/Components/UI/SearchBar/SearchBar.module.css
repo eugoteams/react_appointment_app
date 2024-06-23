@@ -1,0 +1,22 @@
+/** @format */
+
+.container {
+  border: 1px solid #868e96;
+  padding: 0.25rem;
+  border-radius: 0.6rem;
+}
+
+.container input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: inherit;
+}
+
+.icon {
+  fill: "#212529";
+  cursor: pointer;
+  margin-right: 0.3rem;
+}

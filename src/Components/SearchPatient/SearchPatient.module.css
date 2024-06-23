@@ -1,0 +1,45 @@
+/** @format */
+
+.container {
+  width: 35rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #f1f3f5;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+
+.search_wrapper {
+  padding: 1rem 1rem;
+}
+
+.result_container {
+  height: 16rem;
+  overflow: auto;
+}
+
+.footer {
+  height: 5rem;
+  padding: 1rem 0.5rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.footer p:first-child {
+  color: #212529;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.5s linear;
+}
+
+.result_card {
+  border-bottom: 1px solid gray;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}

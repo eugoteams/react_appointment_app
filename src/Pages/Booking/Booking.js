@@ -7,6 +7,7 @@ import { MoveLeft } from "lucide-react";
 import Flex from "../../Components/UI/Flex/Flex";
 import { useNavigate } from "react-router-dom";
 import Modal from "../../Components/UI/Modal/Modal";
+import SearchPatient from "../../Components/SearchPatient/SearchPatient";
 
 const Booking = (props) => {
   const [timeSlot, setStimeSlot] = useState("");
@@ -25,7 +26,7 @@ const Booking = (props) => {
     <Fragment>
       {timeSlot && (
         <Modal>
-          <p>This will be rendered</p>
+          <SearchPatient />
         </Modal>
       )}
       <div className={`${style.back_button_wrapper}`}>
