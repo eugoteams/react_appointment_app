@@ -1,0 +1,12 @@
+/** @format */
+
+.radio_group {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.radio_group > p {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

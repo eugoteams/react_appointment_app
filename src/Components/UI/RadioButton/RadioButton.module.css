@@ -1,0 +1,33 @@
+/** @format */
+
+.container {
+  position: relative;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  width: 11rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  outline: 1px solid #adb5bd;
+}
+
+.container label {
+  display: block;
+  margin-left: 1rem;
+}
+
+.container input[type="radio"] {
+  accent-color: #4263eb;
+}
+
+.overlay_click {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+}
+
+.container:hover {
+  cursor: pointer;
+  outline: 2px solid #4263eb;
+}

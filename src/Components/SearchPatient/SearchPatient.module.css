@@ -18,6 +18,7 @@
 
 .result_container {
   height: 16rem;
+  overflow: auto;
 }
 
 .footer {
@@ -32,4 +33,13 @@
   font-weight: 500;
   font-size: 1.2rem;
   transition: all 0.5s linear;
+}
+
+.result_card {
+  border-bottom: 1px solid gray;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
 }

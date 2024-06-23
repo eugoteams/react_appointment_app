@@ -26,7 +26,7 @@ export const patients = [
     age: 45,
   },
   {
-    id: 3,
+    id: 6,
     first_name: "Emlie",
     last_name: "cameron",
     phone: "9262546172",

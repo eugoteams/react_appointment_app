@@ -5,7 +5,7 @@ import style from "./SearchBar.module.css";
 import Flex from "../Flex/Flex";
 import { Search, X } from "lucide-react";
 
-const SearchBar = ({ onChangeSearch }) => {
+const SearchBar = ({ onChangeSearch, onClear }) => {
   const [searchText, setSearchText] = useState("");
   const debounceRef = useRef();
   const onChangeListener = (e) => {
@@ -13,12 +13,13 @@ const SearchBar = ({ onChangeSearch }) => {
   };
 
   const onClickClear = () => {
+    onClear();
     setSearchText((prevState) => "");
   };
 
   useEffect(() => {
     debounceRef.current = setTimeout(() => {
-      if (searchText) onChangeSearch(searchText);
+      onChangeSearch(searchText);
     }, 1000);
     return () => {
       clearInterval(debounceRef.current);
